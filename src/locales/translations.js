@@ -1,0 +1,728 @@
+export const translations = {
+  hi: {
+    langName: 'हिन्दी',
+    welcomeTitle: 'नमस्ते! हैंड्सऑफ (HandsOf) में आपका स्वागत है',
+    welcomeSubtitle: 'कारीगरी के पीछे का हुनर • See the Hands Behind the Craft',
+    selectLangPrompt: 'अपनी पसंदीदा भाषा चुनें',
+    voiceGuideActive: 'आवाज़ सहायक चालू है',
+    voiceGuideDisabled: 'आवाज़ सहायक बंद है',
+    listenVoice: 'सुनें',
+    continueBtn: 'आगे बढ़ें',
+    backBtn: 'पीछे जाएं',
+    skipBtn: 'छोड़ें',
+    stepIndicator: 'चरण',
+    of: 'का',
+    
+    // Slide 1 Prompts
+    slide1Spoken: 'नमस्ते! हैंड्सऑफ में आपका स्वागत है। कारीगरी के पीछे का हुनर। कृपया अपनी भाषा चुनें और आगे बढ़ें पर टैप करें।',
+    
+    // Slide 2: Essential Details
+    detailsTitle: 'आपकी बुनियादी जानकारी',
+    detailsSubtitle: 'अपनी जानकारी भरें या माइक बटन दबाकर बोलें',
+    detailsSpoken: 'कृपया अपना नाम, फ़ोन नंबर, जन्म तिथि और अपनी कला चुनें। आप माइक दबाकर बोल भी सकते हैं।',
+    
+    nameLabel: 'पूरा नाम',
+    namePlaceholder: 'जैसे: रमेश कुमार',
+    nameSpokenPrompt: 'कृपया अपना पूरा नाम बताएं',
+    
+    phoneLabel: 'मोबाइल नंबर',
+    phonePlaceholder: '10 अंकों का मोबाइल नंबर',
+    phoneSpokenPrompt: 'अपना 10 अंकों का मोबाइल फ़ोन नंबर दर्ज करें',
+    phoneError: 'कृपया 10 अंकों का मान्य मोबाइल नंबर दर्ज करें',
+    
+    emailLabel: 'ईमेल पता (वैकल्पिक)',
+    emailPlaceholder: 'यदि आपके पास है, उदा: name@gmail.com',
+    noEmailText: 'मेरे पास ईमेल नहीं है',
+    
+    dobLabel: 'जन्म तिथि',
+    dobSpokenPrompt: 'अपनी जन्म तिथि चुनें',
+    ageLabel: 'उम्र',
+    yearsOld: 'वर्ष',
+    
+    craftLabel: 'आपकी शिल्प / कला श्रेणी',
+    craftSpokenPrompt: 'आप कौन सा काम करते हैं? नीचे दिए गए विकल्पों में से चुनें',
+    selectCraftHint: 'अपनी कला के कार्ड पर टैप करें',
+    
+    locationLabel: 'राज्य एवं जिला (क्लस्टर)',
+    locationSpokenPrompt: 'अपना राज्य और जिला चुनें',
+    
+    socialCatLabel: 'सामाजिक श्रेणी (VISVAS योजना हेतु)',
+    socialCatSpokenPrompt: 'सरकारी योजना सहायता के लिए अपनी श्रेणी चुनें',
+    visvasNote: 'MoSJE की विश्वास योजना के तहत 5% ब्याज छूट हेतु आवश्यक',
+    
+    speakNow: 'अब बोलें...',
+    listening: 'सुन रहे हैं...',
+    clickToSpeak: 'बोलने के लिए माइक दबाएं',
+    submitProfile: 'दुकान शुरू करें (Go to Shop)',
+    submitting: 'सत्यापित हो रहा है...',
+
+    // VENDOR PORTAL TRANSLATIONS (Image 1, 3, 11)
+    vendorPortal: {
+      brandName: 'HandsOf (हैंड्सऑफ)',
+      brandSubtitle: 'See the Hands Behind the Craft • SIH26090',
+      listenSummary: "आज का कारोबार बोलकर सुनें",
+      listenSummarySub: "(0:45 सेकंड)",
+      playingSummary: "आज का कारोबार सुनाया जा रहा है...",
+      greeting: "नमस्ते, रमेश जी!",
+      todayBusiness: "आज का कारोबार (Today's Business)",
+      liveAndOpen: "LIVE & चालू दुकान",
+      askVoicePill: "बोलकर पूछें: 'आज कितनी कमाई हुई?' या 'कम स्टॉक दिखाओ'",
+      
+      // Urgent Action
+      urgentActionTag: "ज़रूरी काम • 4:00 PM डेडलाइन",
+      urgentActionTitle: "आज 2 ऑर्डर्स का पिकअप शेड्यूल है!",
+      urgentActionSub: "डिलीवरी पार्टनर को QR कोड दिखाएं या पैकिंग पर्ची निकालें।",
+      showQrBtn: "पिकअप QR कोड दिखाएं",
+      printSlipBtn: "पर्ची",
+      
+      // Daily Overview
+      dailyOverviewTitle: "दैनिक विवरण (Daily Overview)",
+      updatedJustNow: "अभी अपडेट हुआ",
+      todayEarnings: "आज की कुल कमाई",
+      todayEarningsVal: "₹3,850.00",
+      bankPayoutBadge: "बैंक ट्रांसफर कल सुबह 8:00 AM ₹3,850",
+      newOrders: "नए ऑर्डर्स",
+      newOrdersVal: "4",
+      packNowBtn: "पैक करें →",
+      inTransit: "रास्ते में (In Transit)",
+      inTransitVal: "12",
+      trackBtn: "ट्रैक करें 👁",
+      
+      // Quick Actions
+      quickActionsTitle: "ज़रूरी काम (Quick Actions)",
+      addNewProduct: "+ नया सामान जोड़ें (फोटो खींचें)",
+      addNewProductSub: "1 मिनट में सामान ऑनलाइन लाएं",
+      bankPassbook: "खाता / बैंक भुगतान व विश्वास योजना",
+      bankPassbookSub: "5% ब्याज छूट पासबुक विवरण",
+      sellerHelpline: "कारीगर सहायता हेल्पलाइन",
+      helplineNumber: "1800-419-HELP (मुफ़्त)",
+      callNowBtn: "कॉल करें",
+      
+      // Shop Products
+      myShopProducts: "मेरी दुकान का सामान",
+      myShopSubtitle: "सामान की बिक्री चालू या बंद करें",
+      viewAll: "सभी देखें",
+      sellingStatusOn: "बिक्री चालू है (Selling)",
+      sellingStatusOff: "सामान खत्म (Out of Stock)",
+      
+      // Products & Stock View (Image 11)
+      stockViewTitle: "सामान और स्टॉक",
+      stockViewSubtitle: "Products, Stock & Revenue Insights",
+      totalItemsBadge: "कुल 38 सामान",
+      searchPlaceholder: "सामान खोजें या बोलें (उदा. दीये, साड़ी...)",
+      voiceAskPrompt: "पूछें: 'मेरा कौन सा सामान सबसे ज्यादा बिका?'",
+      totalRevenue: "कुल कमाई",
+      revenueVal: "₹42,800",
+      revenueGrowth: "+₹8,450 हफ्ता",
+      activeProducts: "चालू सामान",
+      activeProductsSub: "ग्राहक देख रहे हैं",
+      stockAlerts: "स्टॉक अलर्ट",
+      stockAlertsSub: "तुरंत जोड़ें",
+      
+      // Rush Hours / Selling Time
+      rushHourTitle: "कब बिकता है सबसे ज्यादा?",
+      rushHourBadge: "70% ऑर्डर्स",
+      rushHourSub: "Best Selling Rush Hours",
+      peakTime: "शाम 6:00 से रात 9:30 बजे",
+      peakBadge: "धमाकेदार बिक्री समय 🔥",
+      peakDesc: "शाम को ऑफिस व काम के बाद खरीदार सबसे ज्यादा खरीदारी करते हैं।",
+      morningTime: "सुबह (8-12)",
+      morningLevel: "धीमी",
+      afternoonTime: "दोपहर (12-5)",
+      afternoonLevel: "मध्यम",
+      eveningTime: "शाम (6-9:30)",
+      eveningLevel: "पीक 🔥",
+      rushHourTip: "व्यापारी सलाह: शाम 5:30 बजे से पहले अपने सामान का स्टॉक 10+ पीस रखें ताकि कोई ऑर्डर रद्द न हो।",
+      
+      // Filter tabs
+      filterAll: "सभी (38)",
+      filterActive: "🟢 चालू बिक्री (32)",
+      filterLowStock: "🟠 स्टॉक कम (6)",
+      
+      // Product card details
+      liveTag: "Live",
+      lowStockTag: "कम स्टॉक",
+      outOfStockTag: "खत्म (0)",
+      zeroFeeTag: "0% फ़ीस • बैंक में",
+      fastSellingBadge: "🔥 तेज़ बिक्री - हर 45 मिनट में 1 ऑर्डर (पीक: 7-9 PM)",
+      availableStock: "उपलब्ध स्टॉक (In Stock):",
+      piecesLeft: "पीस बचे",
+      addTenBtn: "+10 जोड़ें",
+      earnedFromItem: "इस सामान से कुल कमाई:",
+      changePriceBtn: "दाम बदलें",
+      reportBtn: "हिसाब",
+      onlyPiecesLeft: "सिर्फ {count} पीस बचे हैं!",
+      weekendDemand: "वीकेंड पर सबसे ज्यादा मांग",
+      addStockNowBtn: "+ नया स्टॉक डालें (Add Stock)",
+      outOfStockNotice: "स्टॉक 0 है: जैसे ही आप इसमें स्टॉक जोड़ेंगे, यह तुरंत खुद चालू हो जाएगा और ग्राहकों को दिखने लगेगा।",
+      notVisibleToBuyers: "ग्राहकों को नहीं दिख रहा",
+      
+      // Add Product View (Image 3)
+      addProductTitle: "नया सामान जोड़ें",
+      voiceAiHeading: "बोलकर जानकारी भरें",
+      voiceAiSubheading: "बस बोलें (Just Say): 'हाथ से बनी नीली कॉटन कुर्ती, ₹499, 10 पीस'",
+      tapToSpeak: "बोलने के लिए टैप करें",
+      step1Photo: "1. फ़ोटो",
+      step2Price: "2. दाम व पीस",
+      step3Live: "3. लाइव करें",
+      photosHeading: "1. सामान की फ़ोटो (Photos)",
+      photosSubheading: "फ़ोन से साफ़ फ़ोटो जोड़ें",
+      photoReadyBadge: "1 फ़ोटो तैयार",
+      openCamera: "कैमरा खोलें",
+      openCameraSub: "Take Photo",
+      pickGallery: "गैलरी से चुनें",
+      pickGallerySub: "Pick Gallery",
+      mainPhotoTag: "मुख्य फ़ोटो (Main)",
+      addMorePhotos: "+ और फ़ोटो",
+      backSidePhoto: "पीछे की फ़ोटो",
+      photoTip: "💡 सलाह (Tip): खिड़की के पास या धूप में साफ़ फ़ोटो खींचने पर 3 गुना ज़्यादा ऑर्डर आते हैं!",
+      
+      detailsHeading: "2. सामान का नाम और दाम (Details)",
+      detailsSubheading: "कोई कोड या मुश्किल शब्द नहीं",
+      productNameLabel: "सामान का नाम (Product Name) *",
+      productNamePlaceholder: "जैसे: हाथ से बनी नीली कॉटन कुर्ती",
+      quickTapLabel: "जल्दी चुनने के लिए दबाएं (Tap to Fill):",
+      sellingPriceLabel: "आपका दाम / Selling Price (₹) *",
+      buyerPays: "ग्राहक देंगे (Buyer Pays):",
+      appFeeZero: "कमीशन व डिलीवरी फ़ीस (MoSJE / ONDC):",
+      zeroCommissionNote: "₹0 (Zero Commission!)",
+      bankDepositNote: "आपके बैंक खाते में मिलेंगे (सीधे बैंक में जमा):",
+      availableQuantityLabel: "कितने पीस तैयार हैं? (Available Quantity)",
+      availableQuantitySub: "जितने पीस घर या दुकान पर उपलब्ध हैं",
+      piecesUnit: "पीस (Pcs)",
+      publishNotice: "🚀 आपका सामान 5 करोड़ ग्राहकों को दिखेगा!",
+      publishNowBtn: "सामान अभी लाइव करें (Publish Now)",
+      
+      // Bottom Nav
+      navHome: "डैशबोर्ड",
+      navAdd: "नया सामान",
+      navStock: "सामान व स्टॉक",
+      navHelp: "मदद"
+    },
+
+    // Craft types
+    crafts: {
+      handloom: 'हातमाग / हथकरघा बुनाई',
+      pottery: 'मिट्टी के बर्तन व कुम्हारी',
+      leather: 'चमड़ा शिल्प / कोल्हापुरी',
+      woodcraft: 'लकड़ी पर नक्काशी',
+      zari: 'जरी व जरदोजी कढ़ाई',
+      metalcraft: 'पीतल व धातु शिल्प',
+      bamboo: 'बांस एवं बेंत शिल्प',
+      painting: 'पारंपरिक चित्रकला (वारली/मधुबनी)'
+    }
+  },
+
+  mr: {
+    langName: 'मराठी',
+    welcomeTitle: 'नमस्कार! हँड्सऑफ (HandsOf) मध्ये आपले स्वागत आहे',
+    welcomeSubtitle: 'कलेमागील खरा हात • See the Hands Behind the Craft',
+    selectLangPrompt: 'तुमची पसंतीची भाषा निवडा',
+    voiceGuideActive: 'आवाज सहाय्यक सुरू आहे',
+    voiceGuideDisabled: 'आवाज सहाय्यक बंद आहे',
+    listenVoice: 'ऐका',
+    continueBtn: 'पुढे जा',
+    backBtn: 'मागे जा',
+    skipBtn: 'सोडून द्या',
+    stepIndicator: 'टप्पा',
+    of: 'पैकी',
+    
+    slide1Spoken: 'नमस्कार! हँड्सऑफ मध्ये आपले स्वागत आहे. कलेमागील खरा हात. कृपया तुमची भाषा निवडा आणि पुढे जा वर टॅप करा.',
+    detailsTitle: 'आपली प्राथमिक माहिती',
+    detailsSubtitle: 'माहिती भरा किंवा माइक बटण दाबून आवाजात बोला',
+    detailsSpoken: 'कृपया आपले नाव, फोन नंबर, जन्मतारीख आणि आपली कला निवडा. तुम्ही माइक दाबून बोलू शकता.',
+    
+    nameLabel: 'पूर्ण नाव',
+    namePlaceholder: 'उदा: रमेश पाटील',
+    nameSpokenPrompt: 'कृपया आपले पूर्ण नाव सांगा',
+    
+    phoneLabel: 'मोबाईल नंबर',
+    phonePlaceholder: '१० अंकी मोबाईल नंबर',
+    phoneSpokenPrompt: 'आपला १० अंकी मोबाईल नंबर प्रविष्ट करा',
+    phoneError: 'कृपया १० अंकी वैध मोबाईल नंबर टाका',
+    
+    emailLabel: 'ईमेल पत्ता (ऐच्छिक)',
+    emailPlaceholder: 'तुमच्याकडे असल्यास, उदा: name@gmail.com',
+    noEmailText: 'माझ्याकडे ईमेल नाही',
+    
+    dobLabel: 'जन्मतारीख',
+    dobSpokenPrompt: 'आपली जन्मतारीख निवडा',
+    ageLabel: 'वय',
+    yearsOld: 'वर्षे',
+    
+    craftLabel: 'तुमचा हस्तकला / व्यवसाय प्रकार',
+    craftSpokenPrompt: 'तुम्ही कोणते काम करता? खालील पर्यायांतून निवडा',
+    selectCraftHint: 'आपल्या कलेच्या कार्डवर टॅप करा',
+    
+    locationLabel: 'राज्य व जिल्हा (क्लस्टर)',
+    locationSpokenPrompt: 'आपले राज्य आणि जिल्हा निवडा',
+    
+    socialCatLabel: 'सामाजिक प्रवर्ग (VISVAS योजनेसाठी)',
+    socialCatSpokenPrompt: 'सरकारी योजना सवलतीसाठी आपला प्रवर्ग निवडा',
+    visvasNote: 'MoSJE च्या विश्वास योजनेअंतर्गत ५% व्याज सवलतीसाठी आवश्यक',
+    
+    speakNow: 'आता बोला...',
+    listening: 'ऐकत आहे...',
+    clickToSpeak: 'बोलण्यासाठी माइक दाबा',
+    submitProfile: 'दुकान सुरू करा (Go to Shop)',
+    submitting: 'पडताळणी होत आहे...',
+
+    // VENDOR PORTAL MARATHI
+    vendorPortal: {
+      brandName: 'HandsOf (हँड्सऑफ)',
+      brandSubtitle: 'See the Hands Behind the Craft • SIH26090',
+      listenSummary: "आजचा व्यवसाय आवाजात ऐका",
+      listenSummarySub: "(०:४५ सेकंद)",
+      playingSummary: "आजचा व्यवसाय वाचून दाखवत आहे...",
+      greeting: "नमस्कार, रमेशजी!",
+      todayBusiness: "आजचा व्यवसाय (Today's Business)",
+      liveAndOpen: "LIVE आणि दुकान सुरू",
+      askVoicePill: "आवाजात विचारा: 'आज किती कमाई झाली?' किंवा 'कमी स्टॉक दाखवा'",
+      
+      // Urgent Action
+      urgentActionTag: "तातडीचे काम • ४:०० PM अंतिम वेळ",
+      urgentActionTitle: "आज २ ऑर्डर्सचे पिकअप शेड्यूल आहे!",
+      urgentActionSub: "डिलिव्हरी पार्टनरला QR कोड दाखवा किंवा पॅकिंग स्लिप काढा.",
+      showQrBtn: "पिकअप QR कोड दाखवा",
+      printSlipBtn: "स्लिप",
+      
+      // Daily Overview
+      dailyOverviewTitle: "दैनिक तपशील (Daily Overview)",
+      updatedJustNow: "आत्ताच अपडेट केले",
+      todayEarnings: "आजची एकूण कमाई",
+      todayEarningsVal: "₹३,८५०.००",
+      bankPayoutBadge: "बँक ट्रान्सफर उद्या सकाळी ८:०० AM ₹३,८५०",
+      newOrders: "नवीन ऑर्डर्स",
+      newOrdersVal: "४",
+      packNowBtn: "पॅक करा →",
+      inTransit: "मार्गावर (In Transit)",
+      inTransitVal: "१२",
+      trackBtn: "ट्रॅक करा 👁",
+      
+      // Quick Actions
+      quickActionsTitle: "महत्त्वाची कामे (Quick Actions)",
+      addNewProduct: "+ नवीन वस्तू जोडा (फोटो काढा)",
+      addNewProductSub: "१ मिनिटात वस्तू ऑनलाइन आणा",
+      bankPassbook: "बँक पासबुक व विश्वास योजना",
+      bankPassbookSub: "५% व्याज सवलत पासबुक तपशील",
+      sellerHelpline: "कारागीर मदत केंद्र हेल्पलाइन",
+      helplineNumber: "१८००-४१९-HELP (मोफत)",
+      callNowBtn: "कॉल करा",
+      
+      // Shop Products
+      myShopProducts: "माझ्या दुकानातील वस्तू",
+      myShopSubtitle: "वस्तूंची विक्री सुरू किंवा बंद करा",
+      viewAll: "सर्व पहा",
+      sellingStatusOn: "विक्री सुरू आहे (Selling)",
+      sellingStatusOff: "साठा संपला (Out of Stock)",
+      
+      // Stock View
+      stockViewTitle: "वस्तू आणि साठा (Stock)",
+      stockViewSubtitle: "Products, Stock & Revenue Insights",
+      totalItemsBadge: "एकूण ३८ वस्तू",
+      searchPlaceholder: "वस्तू शोधा किंवा बोला (उदा. दिवे, साडी...)",
+      voiceAskPrompt: "विचारा: 'माझी कोणती वस्तू सर्वाधिक विकली गेली?'",
+      totalRevenue: "एकूण कमाई",
+      revenueVal: "₹४२,८००",
+      revenueGrowth: "+₹८,४५० या आठवड्यात",
+      activeProducts: "सुरू वस्तू",
+      activeProductsSub: "ग्राहक पाहत आहेत",
+      stockAlerts: "स्टॉक अलर्ट",
+      stockAlertsSub: "त्वरित जोडा",
+      
+      // Rush Hours
+      rushHourTitle: "कधी होते सर्वाधिक विक्री?",
+      rushHourBadge: "७०% ऑर्डर्स",
+      rushHourSub: "Best Selling Rush Hours",
+      peakTime: "संध्याकाळी ६:०० ते रात्री ९:३०",
+      peakBadge: "धमाकेदार विक्रीची वेळ 🔥",
+      peakDesc: "कामावरून परतल्यानंतर खरेदीदार ऑनलाइन खरेदी करतात.",
+      morningTime: "सकाळ (८-१२)",
+      morningLevel: "मंद",
+      afternoonTime: "दुपार (१२-५)",
+      afternoonLevel: "मध्यम",
+      eveningTime: "संध्याकाळ (६-९:३०)",
+      eveningLevel: "पीक 🔥",
+      rushHourTip: "व्यापारी सल्ला: संध्याकाळी ५:३० च्या आधी साठा १०+ नग ठेवा जेणेकरून ऑर्डर रद्द होणार नाही.",
+      
+      // Filter tabs
+      filterAll: "सर्व (३८)",
+      filterActive: "🟢 विक्री सुरू (३२)",
+      filterLowStock: "🟠 कमी साठा (६)",
+      
+      // Product card details
+      liveTag: "Live",
+      lowStockTag: "कमी साठा",
+      outOfStockTag: "संपला (०)",
+      zeroFeeTag: "०% फी • बँकेत थेट",
+      fastSellingBadge: "🔥 जलद विक्री - दर ४५ मिनिटांत १ ऑर्डर (पीक: ७-९ PM)",
+      availableStock: "उपलब्ध साठा (In Stock):",
+      piecesLeft: "नग शिल्लक",
+      addTenBtn: "+१० वाढवा",
+      earnedFromItem: "या वस्तूची एकूण कमाई:",
+      changePriceBtn: "किंमत बदला",
+      reportBtn: "हिशोब",
+      onlyPiecesLeft: "फक्त {count} नग शिल्लक आहेत!",
+      weekendDemand: "शनिवार-रविवार जास्त मागणी",
+      addStockNowBtn: "+ नवीन साठा टाका (Add Stock)",
+      outOfStockNotice: "साठा ० आहे: तुम्ही साठा वाढवताच वस्तू थेट ग्राहकांना दिसू लागेल.",
+      notVisibleToBuyers: "ग्राहकांना दिसत नाही",
+      
+      // Add Product
+      addProductTitle: "नवीन वस्तू जोडा",
+      voiceAiHeading: "आवाजात माहिती भरा",
+      voiceAiSubheading: "फक्त बोला: 'हातमागाची पैठणी साडी, ₹४,५००, ५ नग'",
+      tapToSpeak: "बोलण्यासाठी टॅप करा",
+      step1Photo: "१. फोटो",
+      step2Price: "२. किंमत व नग",
+      step3Live: "३. थेट विक्री",
+      photosHeading: "१. वस्तूचा फोटो (Photos)",
+      photosSubheading: "मोबाईलने स्पष्ट फोटो जोडा",
+      photoReadyBadge: "१ फोटो तयार",
+      openCamera: "कॅमेरा उघडा",
+      openCameraSub: "Take Photo",
+      pickGallery: "गॅलरीतून निवडा",
+      pickGallerySub: "Pick Gallery",
+      mainPhotoTag: "मुख्य फोटो (Main)",
+      addMorePhotos: "+ अधिक फोटो",
+      backSidePhoto: "मागची बाजू",
+      photoTip: "💡 सल्ला: खिडकीजवळ किंवा चांगल्या प्रकाशात फोटो काढल्यास ३ पट जास्त ऑर्डर्स येतात!",
+      
+      detailsHeading: "२. वस्तूचे नाव व किंमत (Details)",
+      detailsSubheading: "कोणतेही किचकट शब्द नाहीत",
+      productNameLabel: "वस्तूचे नाव (Product Name) *",
+      productNamePlaceholder: "उदा: पारंपरिक हाताने विणलेली पैठणी साडी",
+      quickTapLabel: "जलद भरण्यासाठी टॅप करा:",
+      sellingPriceLabel: "तुमची विक्री किंमत (₹) *",
+      buyerPays: "ग्राहक देतील (Buyer Pays):",
+      appFeeZero: "कमिशन व डिलिव्हरी फी (MoSJE / ONDC):",
+      zeroCommissionNote: "₹० (Zero Commission!)",
+      bankDepositNote: "थेट तुमच्या बँक खात्यात जमा होतील:",
+      availableQuantityLabel: "किती नग तयार आहेत? (Available Quantity)",
+      availableQuantitySub: "घरी किंवा दुकानात शिल्लक नग",
+      piecesUnit: "नग (Pcs)",
+      publishNotice: "🚀 तुमची वस्तू ५ कोटी ग्राहकांना दिसेल!",
+      publishNowBtn: "वस्तू आता लाईव्ह करा (Publish Now)",
+      
+      // Bottom Nav
+      navHome: "डॅशबोर्ड",
+      navAdd: "नवीन वस्तू",
+      navStock: "वस्तू व साठा",
+      navHelp: "मदत"
+    },
+
+    crafts: {
+      handloom: 'हातमाग व पैठणी विणकाम',
+      pottery: 'मातीची भांडी व कुंभारकाम',
+      leather: 'चर्मोद्योग / कोल्हापुरी चप्पल',
+      woodcraft: 'लाकडी कोरीव काम व शिल्पकला',
+      zari: 'जरीकाम व जरदोजी भरतकाम',
+      metalcraft: 'पितळ व धातूकाम',
+      bamboo: 'बांबू व वेतकाम',
+      painting: 'पारंपारिक वारली चित्रकला'
+    }
+  },
+
+  en: {
+    langName: 'English',
+    welcomeTitle: 'Welcome to HandsOf',
+    welcomeSubtitle: 'See the Hands Behind the Craft • AI-Driven Smart Cataloging (SIH26090)',
+    selectLangPrompt: 'Select your preferred language',
+    voiceGuideActive: 'Voice Assistant Active',
+    voiceGuideDisabled: 'Voice Assistant Muted',
+    listenVoice: 'Listen',
+    continueBtn: 'Continue',
+    backBtn: 'Go Back',
+    skipBtn: 'Skip',
+    stepIndicator: 'Step',
+    of: 'of',
+    
+    slide1Spoken: 'Welcome to HandsOf. See the Hands Behind the Craft. Please choose your preferred language and tap continue.',
+    detailsTitle: 'Essential Artisan Details',
+    detailsSubtitle: 'Fill your details or tap the mic button to speak naturally',
+    detailsSpoken: 'Please share your name, phone number, birth date, and select your craft. You can also tap the mic to speak.',
+    
+    nameLabel: 'Full Name',
+    namePlaceholder: 'e.g. Ramesh Patil',
+    nameSpokenPrompt: 'Please speak or enter your full name',
+    phoneLabel: 'Mobile Phone Number',
+    phonePlaceholder: '10-digit mobile number',
+    phoneSpokenPrompt: 'Enter your 10 digit mobile phone number',
+    phoneError: 'Please enter a valid 10-digit mobile number',
+    emailLabel: 'Email Address (Optional)',
+    emailPlaceholder: 'If you have one, e.g. name@gmail.com',
+    noEmailText: 'I do not have an email',
+    dobLabel: 'Date of Birth',
+    dobSpokenPrompt: 'Select your date of birth',
+    ageLabel: 'Age',
+    yearsOld: 'years',
+    craftLabel: 'Your Craft / Trade Category',
+    craftSpokenPrompt: 'What craft do you practice? Choose from the options below',
+    selectCraftHint: 'Tap on your craft card',
+    locationLabel: 'State & District (Cluster)',
+    locationSpokenPrompt: 'Select your state and artisan cluster',
+    socialCatLabel: 'Social Category (For VISVAS Scheme)',
+    socialCatSpokenPrompt: 'Select your social category for government benefit verification',
+    visvasNote: 'Required for 5% interest subvention under MoSJE VISVAS Scheme',
+    speakNow: 'Speak now...',
+    listening: 'Listening...',
+    clickToSpeak: 'Click mic to speak',
+    submitProfile: 'Open Shop (Go to Dashboard)',
+    submitting: 'Verifying with Supabase...',
+
+    // VENDOR PORTAL ENGLISH
+    vendorPortal: {
+      brandName: 'HandsOf',
+      brandSubtitle: 'See the Hands Behind the Craft • SIH26090',
+      listenSummary: "Listen to Today's Summary",
+      listenSummarySub: "(0:45 audio)",
+      playingSummary: "Reading today's business report...",
+      greeting: "Namaste, Ramesh ji!",
+      todayBusiness: "Today's Business Overview",
+      liveAndOpen: "LIVE & Store Open",
+      askVoicePill: "Ask by Voice: 'How much did I earn today?' or 'Show low stock'",
+      
+      // Urgent Action
+      urgentActionTag: "URGENT ACTION • 4:00 PM Deadline",
+      urgentActionTitle: "2 Orders Pickup Scheduled Today!",
+      urgentActionSub: "Show QR code to delivery partner or print packing label.",
+      showQrBtn: "Show Pickup QR",
+      printSlipBtn: "Print",
+      
+      // Daily Overview
+      dailyOverviewTitle: "Daily Overview",
+      updatedJustNow: "Updated Just Now",
+      todayEarnings: "Today's Earnings",
+      todayEarningsVal: "₹3,850.00",
+      bankPayoutBadge: "Bank transfer tomorrow, 8:00 AM ₹3,850",
+      newOrders: "New Orders",
+      newOrdersVal: "4",
+      packNowBtn: "Pack Now →",
+      inTransit: "In Transit",
+      inTransitVal: "12",
+      trackBtn: "Track 👁",
+      
+      // Quick Actions
+      quickActionsTitle: "Quick Actions",
+      addNewProduct: "+ Add New Product (Take Photo)",
+      addNewProductSub: "List items online in 1 minute",
+      bankPassbook: "Bank Passbook & VISVAS Subvention",
+      bankPassbookSub: "5% interest subvention records",
+      sellerHelpline: "Artisan Support Helpline",
+      helplineNumber: "1800-419-HELP (Toll-Free)",
+      callNowBtn: "Call Now",
+      
+      // Shop Products
+      myShopProducts: "My Shop Products",
+      myShopSubtitle: "Turn product selling status ON or OFF",
+      viewAll: "View All",
+      sellingStatusOn: "Selling (Live)",
+      sellingStatusOff: "Out of Stock",
+      
+      // Stock View
+      stockViewTitle: "Products & Stock",
+      stockViewSubtitle: "Products, Stock & Revenue Insights",
+      totalItemsBadge: "Total 38 Items",
+      searchPlaceholder: "Search or speak item (e.g. diyas, saree...)",
+      voiceAskPrompt: "Ask: 'Which of my products sold the most?'",
+      totalRevenue: "Total Revenue",
+      revenueVal: "₹42,800",
+      revenueGrowth: "+₹8,450 this week",
+      activeProducts: "Active Selling",
+      activeProductsSub: "Visible to buyers",
+      stockAlerts: "Stock Alert",
+      stockAlertsSub: "Refill now",
+      
+      // Rush Hours
+      rushHourTitle: "Best Selling Rush Hours",
+      rushHourBadge: "70% Orders",
+      rushHourSub: "Peak Customer Buying Windows",
+      peakTime: "Evening 6:00 PM to 9:30 PM",
+      peakBadge: "Bumper Rush Hour 🔥",
+      peakDesc: "Buyers shop heavily in the evening after office and work hours.",
+      morningTime: "Morning (8-12)",
+      morningLevel: "Slow",
+      afternoonTime: "Afternoon (12-5)",
+      afternoonLevel: "Medium",
+      eveningTime: "Evening (6-9:30)",
+      eveningLevel: "Peak 🔥",
+      rushHourTip: "Artisan Advice: Maintain 10+ items in stock before 5:30 PM so no incoming orders get cancelled.",
+      
+      // Filter tabs
+      filterAll: "All (38)",
+      filterActive: "🟢 Active (32)",
+      filterLowStock: "🟠 Low Stock (6)",
+      
+      // Product card details
+      liveTag: "Live",
+      lowStockTag: "Low Stock",
+      outOfStockTag: "Out of Stock (0)",
+      zeroFeeTag: "0% Fees • Direct to Bank",
+      fastSellingBadge: "🔥 Fast Selling - 1 order every 45 mins (Peak: 7-9 PM)",
+      availableStock: "Available Stock (In Stock):",
+      piecesLeft: "pcs remaining",
+      addTenBtn: "+10 Add",
+      earnedFromItem: "Total Revenue from Item:",
+      changePriceBtn: "Edit Price",
+      reportBtn: "Report",
+      onlyPiecesLeft: "Only {count} pieces left!",
+      weekendDemand: "Highest demand on weekends",
+      addStockNowBtn: "+ Add Stock Now",
+      outOfStockNotice: "Stock is 0: As soon as you add stock, this item automatically goes live to customers.",
+      notVisibleToBuyers: "Hidden from buyers",
+      
+      // Add Product
+      addProductTitle: "Add New Product",
+      voiceAiHeading: "Voice AI Auto-Fill",
+      voiceAiSubheading: "Just Say: 'Handmade cotton printed saree, ₹899, 10 pieces'",
+      tapToSpeak: "Tap to Speak",
+      step1Photo: "1. Photo",
+      step2Price: "2. Price & Qty",
+      step3Live: "3. Go Live",
+      photosHeading: "1. Product Photos (Photos)",
+      photosSubheading: "Add clear photos from your phone",
+      photoReadyBadge: "1 Photo Ready",
+      openCamera: "Take Photo",
+      openCameraSub: "Camera",
+      pickGallery: "Pick Gallery",
+      pickGallerySub: "From Device",
+      mainPhotoTag: "Main Photo",
+      addMorePhotos: "+ Add More",
+      backSidePhoto: "Back Side",
+      photoTip: "💡 Tip: Taking clear photos near a window or daylight yields 3x more customer orders!",
+      
+      detailsHeading: "2. Product Details & Price",
+      detailsSubheading: "No complex codes or confusing forms",
+      productNameLabel: "Product Name *",
+      productNamePlaceholder: "e.g. Handmade Blue Cotton Kurti",
+      quickTapLabel: "Tap to auto-fill craft tags:",
+      sellingPriceLabel: "Your Selling Price (₹) *",
+      buyerPays: "Buyer Pays:",
+      appFeeZero: "App Fee & Commission (MoSJE / ONDC):",
+      zeroCommissionNote: "₹0 (Zero Commission!)",
+      bankDepositNote: "Direct Bank Transfer to Your Account:",
+      availableQuantityLabel: "Available Quantity (In Stock)",
+      availableQuantitySub: "Total units available in workshop / shop",
+      piecesUnit: "Pieces (Pcs)",
+      publishNotice: "🚀 Your product will be visible to 50M+ buyers across India!",
+      publishNowBtn: "Publish Now (सामान अभी लाइव करें)",
+      
+      // Bottom Nav
+      navHome: "Home",
+      navAdd: "Add Item",
+      navStock: "Stock",
+      navHelp: "Help"
+    },
+
+    crafts: {
+      handloom: 'Handloom & Paithani Weaving',
+      pottery: 'Clay Pottery & Terracotta',
+      leather: 'Leathercraft & Kolhapuri Footwear',
+      woodcraft: 'Wood Carving & Marquetry',
+      zari: 'Zari & Zardozi Embroidery',
+      metalcraft: 'Brass & Bell Metalwork',
+      bamboo: 'Bamboo & Cane Craft',
+      painting: 'Traditional Painting (Warli / Madhubani)'
+    }
+  }
+};
+
+export const CRAFT_OPTIONS = [
+  { id: 'handloom', icon: '🧵', defaultSpecialty: 'Paithani & Handwoven Textiles' },
+  { id: 'pottery', icon: '🏺', defaultSpecialty: 'Terracotta & Earthenware' },
+  { id: 'leather', icon: '👞', defaultSpecialty: 'Traditional Kolhapuri Chappals' },
+  { id: 'woodcraft', icon: '🪵', defaultSpecialty: 'Intricate Wood Carving' },
+  { id: 'zari', icon: '✨', defaultSpecialty: 'Zardozi & Thread Embroidery' },
+  { id: 'metalcraft', icon: '🔔', defaultSpecialty: 'Brass Artifacts & Utensils' },
+  { id: 'bamboo', icon: '🎋', defaultSpecialty: 'Eco-friendly Bamboo Baskets & Home Decor' },
+  { id: 'painting', icon: '🎨', defaultSpecialty: 'Warli & Folk Wall Art' }
+];
+
+export const STATES_AND_CLUSTERS = [
+  { state: 'Maharashtra', districts: ['Chhatrapati Sambhajinagar (Paithan)', 'Kolhapur', 'Wardha', 'Pune', 'Solapur', 'Thane'] },
+  { state: 'Uttar Pradesh', districts: ['Varanasi', 'Bhadohi', 'Moradabad', 'Lucknow', 'Khurja'] },
+  { state: 'Rajasthan', districts: ['Jaipur', 'Jodhpur', 'Udaipur', 'Barmer', 'Kota'] },
+  { state: 'Gujarat', districts: ['Kutch', 'Patan', 'Surat', 'Ahmedabad'] },
+  { state: 'Karnataka', districts: ['Ilkal', 'Channapatna', 'Mysuru', 'Bidar'] },
+  { state: 'West Bengal', districts: ['Shantiniketan', 'Bankura', 'Nadia', 'Bishnupur'] }
+];
+
+export const SOCIAL_CATEGORIES = [
+  { id: 'OBC', label: 'OBC (Other Backward Classes)', visvas: true },
+  { id: 'SC', label: 'SC (Scheduled Caste)', visvas: true },
+  { id: 'ST', label: 'ST (Scheduled Tribe)', visvas: true },
+  { id: 'Women SHG', label: 'Women Self Help Group (SHG)', visvas: true },
+  { id: 'General', label: 'General / Others', visvas: false }
+];
+
+// Initial seeded artisan products matching Image 1, 3, 11
+export const INITIAL_VENDOR_PRODUCTS = [
+  {
+    id: 'prod-001',
+    title: 'मिट्टी के पूजा दीये (12 दीये सेट)',
+    title_en: 'Handcrafted Terracotta Diya Set (Pack of 12)',
+    title_mr: 'मातीचे नक्षीदार पूजेचे दिवे (१२ नग संच)',
+    price: 249,
+    stock: 24,
+    is_selling: true,
+    status: 'live',
+    velocity: 'fast',
+    velocity_text: '🔥 तेज बिक्री - हर 45 मिनट में 1 ऑर्डर (पीक: 7-9 PM)',
+    revenue: 18675,
+    orders_count: 75,
+    image: 'https://images.unsplash.com/photo-1574880590827-0c7f1a3026aa?w=400&auto=format&fit=crop&q=80',
+    category: 'pottery',
+    craft_type: 'Terracotta Pottery'
+  },
+  {
+    id: 'prod-002',
+    title: 'शुद्ध कॉटन हाथ छपाई पैठणी साड़ी',
+    title_en: 'Handloom Cotton Printed Paithani Saree',
+    title_mr: 'शुद्ध हातमाग सुती पैठणी साडी',
+    price: 899,
+    stock: 3,
+    is_selling: true,
+    status: 'low_stock',
+    velocity: 'medium',
+    velocity_text: '⚡ सप्ताहांत पर सबसे ज्यादा मांग',
+    revenue: 14384,
+    orders_count: 16,
+    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400&auto=format&fit=crop&q=80',
+    category: 'handloom',
+    craft_type: 'Handloom Weaving'
+  },
+  {
+    id: 'prod-003',
+    title: 'पीतल अगरबत्ती स्टैंड (धूप पात्र)',
+    title_en: 'Brass Pooja Incense Stand & Dhoop Holder',
+    title_mr: 'पितळी अगरबत्ती व धूप स्टँड',
+    price: 350,
+    stock: 0,
+    is_selling: false,
+    status: 'out_of_stock',
+    velocity: 'slow',
+    velocity_text: 'ℹ️ स्टॉक 0 - नया स्टॉक डालते ही लाइव होगा',
+    revenue: 9450,
+    orders_count: 27,
+    image: 'https://images.unsplash.com/photo-1606293926075-69a00dbfde81?w=400&auto=format&fit=crop&q=80',
+    category: 'metalcraft',
+    craft_type: 'Brass Metalwork'
+  },
+  {
+    id: 'prod-004',
+    title: 'पारंपरिक कोल्हापुरी चप्पल (शुद्ध लेदर)',
+    title_en: 'Authentic Kolhapuri Leather Chappal',
+    title_mr: 'अस्सल कोल्हापुरी चामड्याची चप्पल',
+    price: 749,
+    stock: 12,
+    is_selling: true,
+    status: 'live',
+    velocity: 'medium',
+    velocity_text: '🔥 नियमित ग्राहक पसंती',
+    revenue: 11984,
+    orders_count: 16,
+    image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&auto=format&fit=crop&q=80',
+    category: 'leather',
+    craft_type: 'Leather Craft'
+  }
+];

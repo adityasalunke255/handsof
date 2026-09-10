@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Environment variables & secrets
+.env
+server/.env
+*.local
+
+# Production build artifacts
+dist/
+dist-ssr/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+ai_service/__pycache__/
+.pytest_cache/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Large presentation binaries
+*.pptx
+*.docx
+*.tar.xz
